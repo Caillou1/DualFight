@@ -10,7 +10,7 @@ public class TargetBehaviour : MonoBehaviour {
     {
         if (Life > 0)
         {
-            Instantiate(Impact, point, Quaternion.identity);
+            Destroy(Instantiate(Impact, point, Quaternion.identity), .5f);
             Life -= x;
             if (Life <= 0)
                 Kill();

@@ -1113,11 +1113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf698eed07b62cb42aed484636a0bea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P: 3
-  I: 0.1
-  D: 0.01
-  RotSpeed: 5
-  MaxRotSpeed: 10
+  MaxError: 0.013
   target: {fileID: 973154551}
 --- !u!23 &1062333134
 MeshRenderer:
@@ -1178,7 +1174,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1062333132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 56.4, y: 127.63, z: 39.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1462312079}
